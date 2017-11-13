@@ -1,0 +1,25 @@
+{
+  "name": "airbnb-heatmap",
+  "version": "1.0.0",
+  "description": "calculate airbnb's properties demand metric & show on heatmap",
+  "main": "index.js",
+  "scripts": {
+    "initdm": "demandMetricCalculator/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TBD"
+  },
+  "keywords": [
+    "airbnb",
+    "heatmap"
+  ],
+  "author": "Ben Hodeda",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "q": "^1.5.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
